@@ -1,0 +1,87 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yu.videochat.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CADDEA">
+
+        <FrameLayout
+            android:id="@+id/videoFrameFrame"
+            android:layout_width="232dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="#87CEEB"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp"
+            >
+
+
+                <FrameLayout
+                    android:id="@+id/videoFrame"
+                    android:layout_width="464dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/video_logo"
+                            android:layout_marginLeft="61dp"
+                            android:layout_centerVertical="true"
+                        />
+                    </RelativeLayout>
+                </FrameLayout>
+
+        </FrameLayout>
+
+        <Button style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/button3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/videoFrameFrame"
+            android:onClick="Disconnect"
+            android:text="Disconnect"
+            />
+
+        <Button style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/button2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/button3"
+            android:layout_alignParentBottom="true"
+            android:onClick="Connect"
+            android:text="Connect"
+            />
+
+        <Button style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/button2"
+            android:layout_alignParentBottom="true"
+            android:onClick="Start"
+            android:text="Start" />
+
+        <fragment
+            android:id="@+id/fragment"
+            android:name="com.example.yu.videochat.YoutubeFragment"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

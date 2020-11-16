@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "285015521994",
+    "firebase_url": "https://group10-70631.firebaseio.com",
+    "project_id": "group10-70631",
+    "storage_bucket": "group10-70631.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285015521994:android:744f9d1d5ed7a085",
+        "android_client_info": {
+          "package_name": "com.example.yu.videochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285015521994-onfq4e5fe6a01pnd5k431ovm4mj392eg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yu.videochat",
+            "certificate_hash": "509eff80a23bcea37efeb45bbeca02795d33043a"
+          }
+        },
+        {
+          "client_id": "285015521994-bvv17fd77jpoidf996kvjj9p2hlam1u9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI0LXkus_oTQmA0A9ampjrKy01gdyliHI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285015521994-bvv17fd77jpoidf996kvjj9p2hlam1u9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
